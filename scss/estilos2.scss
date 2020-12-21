@@ -43,7 +43,7 @@ $colorLetraParrafo:#ffffff;
 body {
     font-family: 'Roboto', sans-serif !important;
     /*background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);*/
-    background-image: url("../imagenes/jp-valery-WuAHlueIw6M-unsplash.jpg");
+    background-image: url("../imagenes/nuevo7.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed
@@ -129,8 +129,8 @@ a {
     align-items: center;
     padding: 100px;
     img {
-        height: 20%;
-        width: 20%;
+        height: 40%;
+        width: 40%;
         border-radius: 15px;
     }
     h3 {
@@ -232,7 +232,7 @@ a {
 }
 
 
-/*NUESTROS CLIENTES*/
+/* CLIENTES*/
 
 .nuestrosClientes {
     padding: 50px;
@@ -276,23 +276,28 @@ a {
     }
     a:hover {
         color: white;
+        text-decoration: none;
     }
 }
 
-.serv {
-    display: flex;
-    align-items: center;
-    margin: 60px;
-    p {
-        color: #ffffff;
-        font-size: 25px;
-        padding: 40px;
-    }
+.servicios {
+    padding: 100px;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
     img {
-        height: 300px;
-        width: 300px;
-        padding: 50px
+        width: 30%;
+        text-align: center;
     }
+    .images {
+        padding-top: 10px;
+    }
+}
+
+#serv h1,
+h3,
+p {
+    color: white;
 }
 
 
