@@ -11,27 +11,29 @@
     <meta property="og:description" content="Luma es un estudio de marca y comunicación. Creamos productos de calidad, siempre con una estética impoluta." />
     <meta property="og:image" content="https://scontent.fcor10-3.fna.fbcdn.net/v/t1.0-9/p960x960/115913330_170312271335471_8385359174801438907_o.jpg?_nc_cat=103&ccb=2&_nc_sid=85a577&_nc_ohc=-TQT-N7SbCgAX_KVa_V&_nc_ht=scontent.fcor10-3.fna&tp=6&oh=c57482f05ad25c09a91095545d28fa45&oe=5FF86BA5"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="keywords" content="redes sociales, diseño grafico, marketing, publicidad, promocion">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
     <link rel="icon" type="image/png" href="imagenes/pestana2.png" />
     <link rel="stylesheet" href="css/estilos2.css">
-
     <title>Luma - Porfolio</title>
 </head>
 
 <body>
     <header>
-        <a href=""><img src="imagenes/luma-logo01-02.svg" alt="" class="logo" /></a>
-        <navbar>
-            <ul class="nav-menu-porfolio" id="navegacion">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
-                <li><a href="porfolio.html">Porfolio</a></li>
-                <li><a href="servicios.html">Servicios</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-                <li><a href="#clientes">Nuestros Clientes</a></li>
-            </ul>
-        </navbar>
+        <img src="imagenes/luma-logo01-02.svg" alt="" class="logo" />
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Inicio</a>
+            <a href="sobreNosotros.html">Nosotros</a>
+            <a href="porfolio.html">Porfolio</a>
+            <a href="servicios.html">Servicos</a>
+            <a href="contacto.html">Contacto</a>
+
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
     </header>
     <main class="containerPorf">
         <section class="contenedorGaleria">
@@ -207,5 +209,15 @@
         >
       </p>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
   </body>
 </html>

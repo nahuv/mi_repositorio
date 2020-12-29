@@ -9,7 +9,7 @@
 
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    /*background-color: #333;*/
 }
 
 .topnav a {
@@ -17,14 +17,16 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px;
+    margin: 2px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .topnav a:hover {
     background-color: #ddd;
     color: black;
+    border-radius: 14px;
 }
 
 .topnav a.active {
@@ -73,13 +75,12 @@ $alto:20%;
 
 /*Variable parrafos*/
 
-$parrafo_tamano: 60px;
+$parrafo_tamano: 40px;
 $colorLetraParrafo:#ffffff;
 
 /*HEADER                  LOGO ANIMACION*/
 
 .logo {
-    display: inline-block;
     width: $ancho;
     height: $alto;
     padding: 10px;
@@ -134,10 +135,7 @@ a {
 /******************************************INICIO*/
 
 .inicio {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin: 30px;
     img {
         height: 20%;
         width: 20%;
@@ -146,7 +144,7 @@ a {
     p {
         font-size: $parrafo_tamano;
         color: $colorLetraParrafo;
-        padding: 90px;
+        padding: 10px;
         margin-right: 10px;
     }
 }
@@ -179,19 +177,21 @@ a {
 
 #descubre:hover {
     color: #F6F954;
+    text-decoration: none;
 }
 
 
 /**************************SOBRE NOSOTROS*****/
 
-.sobreNosotros {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
+.nosotros {
+    padding: 50px;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 50px;
     img {
-        height: 40%;
-        width: 40%;
+        padding: 50px;
+        height: 30%;
+        width: 30%;
         border-radius: 15px;
     }
     h3 {
@@ -201,6 +201,10 @@ a {
     }
 }
 
+.sobreNosotros {
+    padding: 50px;
+}
+
 .parrafo-sobreNosotros {
     color: #ffffff;
     font-size: 25px;
@@ -208,7 +212,7 @@ a {
     text-align: start;
 }
 
-
+*/
 /****************************************Porfoliooooo********************************/
 
 
@@ -465,6 +469,7 @@ footer {
 }
 
 .redes {
+    padding: 100px;
     text-align: center;
     img {
         width: 30px;
@@ -485,4 +490,5 @@ footer {
 
 .firma2:hover {
     color: #ECC951;
+    text-decoration: none;
 }
