@@ -11,7 +11,6 @@
     <meta property="og:description" content="Luma es un estudio de marca y comunicación. Creamos productos de calidad, siempre con una estética impoluta." />
     <meta property="og:image" content="https://scontent.fcor10-3.fna.fbcdn.net/v/t1.0-9/p960x960/115913330_170312271335471_8385359174801438907_o.jpg?_nc_cat=103&ccb=2&_nc_sid=85a577&_nc_ohc=-TQT-N7SbCgAX_KVa_V&_nc_ht=scontent.fcor10-3.fna&tp=6&oh=c57482f05ad25c09a91095545d28fa45&oe=5FF86BA5"
     />
-
     <meta name="keywords" content="redes sociales, diseño grafico, marketing, publicidad, promocion">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -64,21 +63,18 @@
                 <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
             </div>
             <h2>Eligí tu ubicación</h2>
-            <div class="dropdown">
-                <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
-                    Ubicación
-                  </button>
-                <div class="dropdown-menu">
-                    <a class="dropdown-item">Córdoba</a>
-                    <a class="dropdown-item">Buenos Aires</a>
-                    <a class="dropdown-item">Rosario</a>
-                    <a class="dropdown-item">Tucumán</a>
-                    <a class="dropdown-item">Bariloche</a>
-                    <a class="dropdown-item">Rio Negro</a>
-                    <a class="dropdown-item">Catamarca</a>
-                    <a class="dropdown-item">Otro</a>
-                </div>
-            </div>
+            <select class="custom-select">
+                    <option selected>Elegí tu zona</option>
+                    <option value="1">Córdoba</option>
+                    <option value="2">Buenos Aires</option>
+                    <option value="3">Mendoza</option>
+                    <option value="4">Mendoza</option>
+                    <option value="5">Tierra del Fuego</option>
+                    <option value="6">Salta</option>
+                    <option value="8">Jujuy</option>
+                    <option value="9">Santa Fe</option>
+                    <option value="10">Otro</option>
+                  </select>
             <h2>¡Queremos saber un poco más!</h2>
             <div class="form-group">
                 <label for="emprendimiento">¿Tenés un negocio o emprendimiento?</label>
@@ -144,6 +140,8 @@
         </ul>
         <p class="firma">Todos los derechos reservados | Desarrollado por <a class="firma2" href="https://www.instagram.com/nnahuel1/?hl=es-la" target="_blank">Nahuee</a></p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
