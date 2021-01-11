@@ -26,116 +26,32 @@
 
 <body>
     <header>
-        <img src="imagenes/luma-logo01-02.svg" alt="" class="logo" />
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Inicio</a>
-            <a href="sobreNosotros.html">Nosotros</a>
-            <a href="porfolio.html">Porfolio</a>
-            <a href="servicios.html">Servicos</a>
-            <a href="contacto.html">Contacto</a>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/luma-logo01-02.svg" alt="logo" style="width:150px;">
             </a>
-        </div>
 
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="porfolio.html">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
-
-    <!--<section class="containerContacto">
-        <article class="contacto">
-                <img src="imagenes/contacto.png" alt="" class="imagen-contacto">
-            </article> 
-    <div class="contenedor">
-        <form action="#">
-            <h2>Contacto</h2>
-            <div class="form-group">
-                <label for="email">Mail:</label>
-                <input type="email" class="form-control" id="email" placeholder="Mail" name="email">
-            </div>
-            <div class="form-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
-            </div>
-            <h2>Eligí tu ubicación</h2>
-            <div class="dropdown">
-
-                <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
-                            Ubicación
-                          </button>
-
-                <div class="dropdown-menu">
-                    <a class="dropdown-item">Córdoba</a>
-                    <a class="dropdown-item">Buenos Aires</a>
-                    <a class="dropdown-item">Rosario</a>
-                    <a class="dropdown-item">Tucumán</a>
-                    <a class="dropdown-item">Bariloche</a>
-                    <a class="dropdown-item">Rio Negro</a>
-                    <a class="dropdown-item">Catamarca</a>
-                    <a class="dropdown-item">Otro</a>
-                </div>
-            </div>
-            <h2>¡Queremos saber un poco más!</h2>
-            <div class="form-group">
-                <label for="emprendimiento">¿Tenés un negocio o emprendimiento?</label>
-                <input type="radio" name="negocio" id="negocio" value="Si">Si
-                <input type="radio" name="negocio" id="negocio" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="marca">¿Tu marca tiene logo?</label>
-                <input type="radio" name="logo" id="logo" value="Si">Si
-                <input type="radio" name="logo" id="logo" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="sociales">¿Tu marca tiene redes sociales?</label>
-                <input type="radio" name="redes" id="redes" value="Si">Si
-                <input type="radio" name="redes" id="redes" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="rta1">Si tu respuesa es SÍ, contanos cuáles son y cómo se llaman</label>
-            </div>
-            <div class="form-group">
-                <textarea name="respuesta1" id="respuesta1" cols="70" rows="2"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="tienda">¿Tenés una tienda online?</label>
-                <input type="radio" name="tienda" id="tienda" value="Si">Si
-                <input type="radio" name="tienda" id="tienda" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="envios">Actualmente, ¿hacés envíos?</label>
-                <input type="radio" name="envios" id="envios" value="Si">Si
-                <input type="radio" name="envios" id="envios" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="local">¿Tenés un local físico?</label>
-                <input type="radio" name="local" id="local" value="Si">Si
-                <input type="radio" name="local" id="local" value="No">No
-            </div>
-            <div class="form-group">
-                <label for="rta2">¿Algún comentario que quieras agregar?</label>
-            </div>
-            <div class="form-group">
-                <textarea name="rta2" id="rta2" cols="70" rows="2"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="contacto">¿Querés que nos comuniquemos con vos? Dejanos un teléfono e indicanos en qué horario nos podemos contactar</label>
-            </div>
-            <div class="form-group">
-                <textarea name="contacto" id="contacto" cols="70" rows="2"></textarea>
-            </div>
-            <button type="submit" class="btn btn-dark">Enviar</button>
-        </form>
-    </div>
-    </section>
-
-
-
-    <div class="seccion contacto">
-
-
-    </div>
--->
     <div class="container">
         <form action="#">
             <h2>Contacto</h2>
@@ -149,11 +65,9 @@
             </div>
             <h2>Eligí tu ubicación</h2>
             <div class="dropdown">
-
                 <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">
                     Ubicación
                   </button>
-
                 <div class="dropdown-menu">
                     <a class="dropdown-item">Córdoba</a>
                     <a class="dropdown-item">Buenos Aires</a>
@@ -230,19 +144,6 @@
         </ul>
         <p class="firma">Todos los derechos reservados | Desarrollado por <a class="firma2" href="https://www.instagram.com/nnahuel1/?hl=es-la" target="_blank">Nahuee</a></p>
     </footer>
-
-
-    <script>
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav") {
-                x.className += " responsive";
-            } else {
-                x.className = "topnav";
-            }
-        }
-    </script>
-
 </body>
 
 </html>

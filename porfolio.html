@@ -13,6 +13,8 @@
     />
     <meta name="keywords" content="redes sociales, diseño grafico, marketing, publicidad, promocion">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/png" href="imagenes/pestana2.png" />
     <link rel="stylesheet" href="css/estilos2.css">
     <title>Luma - Porfolio</title>
@@ -20,18 +22,30 @@
 
 <body>
     <header>
-        <img src="imagenes/luma-logo01-02.svg" alt="" class="logo" />
-        <div class="topnav" id="myTopnav">
-            <a href="index.html">Inicio</a>
-            <a href="sobreNosotros.html">Nosotros</a>
-            <a href="porfolio.html">Porfolio</a>
-            <a href="servicios.html">Servicos</a>
-            <a href="contacto.html">Contacto</a>
-
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <!-- Brand/logo -->
+            <a class="navbar-brand" href="#">
+                <img src="imagenes/luma-logo01-02.svg" alt="logo" style="width:150px;">
             </a>
-        </div>
+
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="porfolio.html">Porfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
 
     </header>
     <main class="containerPorf">
@@ -208,15 +222,6 @@
         >
       </p>
     </footer>
-    <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-        </script>
+
   </body>
 </html>
